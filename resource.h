@@ -6,7 +6,7 @@
 
 static char *fallback_resources[] = {
   "*international:	true",
-  "*fontSet:		-*-*-medium-r-normal--14-*-*",
+  "*fontSet:		-alias-fixed-medium-r-normal--12-*-*",
 
   "*foreground:		black",
   "*background:		#c0c0d0",

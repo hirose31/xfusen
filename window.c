@@ -13,14 +13,14 @@ WinData *root_win,*current_win;
 static Position  off_x,off_y;
 
 static char *fontstr[] = {
-    "-*-*-*-*-*-*-8-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-12-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-14-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-16-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-18-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-20-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-24-*-*-*-*-*-jisx0208.1983-*",
-    "-*-*-*-*-*-*-48-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--8-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--12-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--14-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--16-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--18-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--20-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--24-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--48-*-*-*-*-*-jisx0208.1983-*",
 };
 
 static char colstr[16][8] = {

@@ -9,6 +9,8 @@
 #define XFUSEN_PATCHLEVEL 0
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include <X11/Intrinsic.h>
 #include <X11/Xaw/Label.h>
 #include <X11/Xaw/Command.h>
