@@ -67,7 +67,7 @@ WinData* MakeWindow(Widget w)
 
   String trans =
     "<Btn1Up>:                 Enter() display-caret(on) extend-end(PRIMARY,CUT_BUFFER0)  \n\
-     <FocusIn>:                Sense()                    \n\
+     <FocusIn>:                Sense() Enter() display-caret(on) extend-end(PRIMARY,CUT_BUFFER0) \n\
      <FocusOut>:               Leave() display-caret(off) \n\
      Shift<Key>BackSpace:      delete-selection()         \n\
      Meta<Key>I:               no-op(RingBell)            \n\
