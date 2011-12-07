@@ -13,14 +13,14 @@ WinData *root_win,*current_win;
 static Position  off_x,off_y;
 
 static char *fontstr[] = {
-    "-alias-fixed-medium-r-normal--8-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--12-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--14-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--16-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--18-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--20-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--24-*-*-*-*-*-jisx0208.1983-*",
-    "-alias-fixed-medium-r-normal--48-*-*-*-*-*-jisx0208.1983-*",
+    "-alias-fixed-medium-r-normal--8-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--12-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--14-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--16-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--18-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--20-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--24-*-*-*-*-*-jisx0208.1990-*",
+    "-alias-fixed-medium-r-normal--48-*-*-*-*-*-jisx0208.1990-*",
 };
 
 static char colstr[16][8] = {
@@ -94,7 +94,7 @@ WinData* MakeWindow(Widget w)
     win->prev = p;
   }
   win->next  = NULL;
-  win->font  = 3;
+  win->font  = 1;
   win->color = 0;
   win->iconify = FALSE;
   win->status  = FALSE;
@@ -252,7 +252,7 @@ XtCallbackProc About(Widget w,caddr_t client,caddr_t caller)
 		XtNstring,str,
 		NULL);
   win->color = 7;
-  win->font  = 2;
+  win->font  = 1;
   ViewWindow(win);
 }
 
